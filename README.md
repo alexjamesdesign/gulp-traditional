@@ -42,13 +42,13 @@ Basic gulp process for compiling SCSS + Sourcemaps, JS and live reload with Brow
 
 ## 💫 Deployment
 
-    To run the build tasks, you should add a build pipeline to DeployHQ for the following.
+To run the build tasks, you should add a build pipeline to DeployHQ for the following.
 
     ```sh
     gulp build --production
     ```
 
-    You should also consider caching your node_modules like so
+You should also consider caching your node_modules like so
 
     ```sh
     wp-content/theme-name/node_modules/**
