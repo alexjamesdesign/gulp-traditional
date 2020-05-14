@@ -31,7 +31,7 @@ Basic gulp process for compiling SCSS + Sourcemaps, JS and live reload with Brow
     npm run dev
     ```
 
-    Or
+    or
 
     ```sh
     gulp dev
@@ -39,7 +39,6 @@ Basic gulp process for compiling SCSS + Sourcemaps, JS and live reload with Brow
 
     Your site is now running at `http://localhost:3000/`!
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
 ## 💫 Deployment
 
@@ -51,7 +50,7 @@ Basic gulp process for compiling SCSS + Sourcemaps, JS and live reload with Brow
 
     You should also consider caching your node_modules like so
 
-     ```sh
+    ```sh
     wp-content/theme-name/node_modules/**
     wp-content/theme-name/node_modules/*
     wp-content/theme-name/node_modules/
