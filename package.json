@@ -1,0 +1,46 @@
+{
+	"name": "PROJECT-NAME",
+	"version": "1.0.0",
+	"description": "Project Name",
+	"main": "gulpfile.babel.js",
+	"scripts": {
+		"dev": "gulp dev",
+		"prod": "gulp build --production",
+		"production": "npm run prod",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Adtrak Media Ltd",
+	"license": "ISC",
+	"browserslist": "> 0.25%, not dead",
+	"dependencies": {
+		"@babel/register": "^7.6.2",
+		"autoprefixer": "^9.6.1",
+		"browser-sync": "^2.26.7",
+		"classlist-polyfill": "^1.2.0",
+		"core-js": "^3.4.8",
+		"cssnano": "^4.1.10",
+		"del": "^5.1.0",
+		"gulp-if": "^3.0.0",
+		"gulp-postcss": "^8.0.0",
+		"gulp-rename": "^2.0.0",
+		"gulp-sass": "^4.0.2",
+		"intersection-observer": "^0.7.0",
+		"node-sass": "^4.12.0",
+		"rollup": "^1.22.0",
+		"rollup-plugin-terser": "^5.1.2",
+		"stylelint": "^13.2.0",
+		"yargs": "^14.0.0"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.6.2",
+		"@babel/preset-env": "^7.6.2",
+		"@rollup/plugin-commonjs": "^11.0.2",
+		"@rollup/plugin-node-resolve": "^7.1.1",
+		"gulp": "^4.0.2",
+		"gulp-better-rollup": "^4.0.1",
+		"rollup-plugin-babel": "^4.3.3",
+		"rollup-plugin-commonjs": "^10.1.0",
+		"rollup-plugin-node-resolve": "^5.2.0",
+		"stylelint-config-recommended": "^3.0.0"
+	}
+}

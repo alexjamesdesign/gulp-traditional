@@ -1,0 +1,9 @@
+.gitignore
+.gitmodules
+.DS_Store
+*.md
+.deployignore
+node_modules
+wp-content/themes/**/node_modules
+wp-content/themes/**/node_modules/**
+wp-content/themes/**/node_modules/*

@@ -1,0 +1,11 @@
+# Ignore the uploads 'cause it's massive
+wp-content/uploads/*
+# Ignore Prepros config
+prepros-6.config
+wp-config.php
+
+wp-content/themes/**/node_modules/**
+wp-content/themes/**/node_modules/*
+.env
+.env.example
+.DS_Store
