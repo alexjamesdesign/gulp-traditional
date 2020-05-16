@@ -47,14 +47,14 @@ Basic gulp process for compiling SCSS + Sourcemaps, JS and live reload with Brow
 
 To run the build tasks, you should add a build pipeline to DeployHQ for the following.
 
-    ```sh
+    cd wp-content/themes/adtrak-child
+    npm install
     gulp build --production
-    ```
 
 You should also consider caching your node_modules like so
 
-    ```sh
     wp-content/theme-name/node_modules/**
     wp-content/theme-name/node_modules/*
     wp-content/theme-name/node_modules/
-    ```
+    
+
