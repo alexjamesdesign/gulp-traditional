@@ -16,6 +16,9 @@ Basic gulp process for compiling SCSS + Sourcemaps, JS and live reload with Brow
 
 1.  **Change filepaths.**
     Theres a couple of filepaths in the gulpfile and package.json that you'll need to change to reflect your sites proxy.
+    
+1.  **Change production to be Gulp friendly.**
+    Usually involves changing from @prepros to import "./scripts/name.js"
 
 
 1.  **Install NPM assets.**
